@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cold Points</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row" id="weather-current">
+      <div class="col-md-3 day">
+        <h1>Today</h1>
+      </div>
+      <div class="col-md-3">
+        <img src="" alt="" class="weather-icon">
+      </div>
+      <div class="col-md-3 temp"></div>
+      <div class="col-md-3 hum"></div>
+    </div>
+    <div class="row" id="weather-tomorrow">
+      <div class="col-md-3 day">
+        <h1>Tomorrow</h1>
+      </div>
+      <div class="col-md-3">
+        <img src="" alt="" class="weather-icon">
+      </div>
+      <div class="col-md-2 temp-max"></div>
+      <div class="col-md-2 temp-min"></div>
+      <div class="col-md-2 hum"></div>
+    </div>
+    <div class="row" id="cold-point-container">
+      <div class="col-md-8">
+        Your chance of catching cold:
+      </div>
+      <div class="col-md-4" id="cold-point"></div>
+    </div>
+  </div>
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
